@@ -1,4 +1,4 @@
-# simbir-soft-soccer-stat
+# simbirsoft-soccer-stat
 
 ## Project setup
 ```
