@@ -3,8 +3,8 @@
     <v-card-text>
       <v-row>
         <v-col cols="10">
-          <span class="text-subtitle-2 pb-3">{{ match.competition.name }}</span>
-          <span class="text-caption pb-3"> | {{ match.stage }}</span>
+          <span class="text-subtitle-2 pb-3" v-if="match.competition">{{ match.competition?.name }} | </span>
+          <span class="text-caption pb-3">{{ match.stage }}</span>
         </v-col>
         <v-col cols="2" class="text-right">
           <div class="text-caption pb-3">{{ match.utcDate | formatDate }}</div>
