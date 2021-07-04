@@ -21,7 +21,7 @@
           clearable
         ></v-text-field>
       </template>
-      <v-date-picker v-model="dateVal" no-title range scrollable>
+      <v-date-picker v-model="dateVal" no-title range scrollable locale="ru-ru">
         <v-spacer></v-spacer>
         <v-btn
           text
