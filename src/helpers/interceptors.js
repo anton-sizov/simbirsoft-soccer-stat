@@ -14,7 +14,6 @@ export default function setup() {
       return config;
     },
     function (err) {
-      console.error(err);
       return Promise.reject(err);
     }
   );
