@@ -1,5 +1,6 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/simbirsoft-soccer-stat/'
-        : '/'
-}
+  publicPath:
+    process.env.NODE_ENV === "production" ? "/simbirsoft-soccer-stat/" : "/",
+
+  transpileDependencies: ["vuetify"],
+};
